@@ -7,7 +7,7 @@ fs, Audiodata = wavfile.read(AudioName)
 # np.set_printoptions(threshold=sys.maxsize)
 Audiodata = Audiodata[0:, 0]
 print(Audiodata)
-
+#a
 for i in range(len(Audiodata)):
     if 460 > Audiodata[i] > -460:
         Audiodata[i] = 0
