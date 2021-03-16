@@ -8,9 +8,11 @@ fs, Audiodata = wavfile.read(AudioName)
 Audiodata = Audiodata[0:, 0]
 print(Audiodata)
 
-for i in range(len(Audiodata)):
-    if 460 > Audiodata[i] > -460:
-        Audiodata[i] = 0
+
+Audiodata[(Audiodata < 460 ) & (Audiodata > -460)] = 0
+# for i in range(len(Audiodata)):
+#     if 460 > Audiodata[i] > -460:
+#         Audiodata[i] = 0
 
 # Plot the audio signal in time
 import matplotlib.pyplot as plt
