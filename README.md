@@ -1,8 +1,3 @@
-Структура:
-1.  Побочные каналы утечки информации.
-2. Микрофоны для нас.
-3. Проведенные эксперименты, сделанная работа. Прямые методы.
-4. Дальнейшее развитие работы. Machine Learning.
+#  The problem of acoustic keytap interpretation for the eavesdropping resistance purposes 
 
-Выявляем структуру текста. Создание аудиоклавиатурного профиля человека.
- 
+Implementation of cross-correlation and specific preprocessing method 
